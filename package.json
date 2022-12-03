@@ -1,0 +1,15 @@
+{
+  "name": "retro-gadets-typedefs",
+  "version": "1.0.0",
+  "description": "Typescript template for Retro Gadgets",
+  "scripts": {
+    "build": "tstl",
+    "dev": "tstl --watch"
+  },
+  "author": "DarkMio",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript-to-lua": "^1.11.1",
+    "retro-gadgets-typedefs": "^1.0.0"
+  }
+}

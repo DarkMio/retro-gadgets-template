@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "rootDir": "src",
+      "outDir": "compiled",
+      "target": "esnext",
+      "types": [
+        "retro-gadgets-typedefs"
+      ],
+      "lib": ["esnext"],
+      "moduleResolution": "node",
+      "skipLibCheck": false,
+      "strict": true
+    },
+    "include": [
+        "**/*.ts"
+    ],
+    "tstl": {
+      // this is somewhat incorrect, but gives bitshift operators present in
+      // game (but not by default in lua 5.1)
+      "luaTarget": "5.2",
+      "luaBundle": "CPU.lua",
+      "luaBundleEntry": "src/index.ts",
+      "noImplicitSelf": true,
+      "noHeader": true,
+    }
+}
