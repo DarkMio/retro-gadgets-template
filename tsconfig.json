@@ -4,7 +4,7 @@
       "outDir": "compiled",
       "target": "esnext",
       "types": [
-        "retro-gadgets-typedefs"
+        "retro-gadgets-lua-types"
       ],
       "lib": ["esnext"],
       "moduleResolution": "node",
